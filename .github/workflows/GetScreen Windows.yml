@@ -15,4 +15,4 @@ jobs:
          cmd /c down.bat
 
       - name: Time Counter
-        run: Start-Sleep seconds 14600
+        run: python time.py
